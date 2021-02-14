@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tool_bar">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@android:dimen/notification_large_icon_height"
+                            android:layout_marginEnd="@android:dimen/notification_large_icon_height"
+                            android:padding="@dimen/default_gap"
+                            android:text="Bachiller de Ciencias Sociales - Colegio Sagrado Corazón de Jesús" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@android:dimen/notification_large_icon_height"
+                            android:layout_marginEnd="@android:dimen/notification_large_icon_height"
+                            android:padding="@dimen/default_gap"
+                            android:text="Diseño de Calzado - Instituto San Crispín" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@android:dimen/notification_large_icon_height"
+                            android:layout_marginEnd="@android:dimen/notification_large_icon_height"
+                            android:padding="@dimen/default_gap"
+                            android:text="Java para no programadores - Educaciónit" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@android:dimen/notification_large_icon_height"
+                            android:layout_marginEnd="@android:dimen/notification_large_icon_height"
+                            android:padding="@dimen/default_gap"
+                            android:text="Introducción al Paradigma de Objetos - Educaciónit" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@android:dimen/notification_large_icon_height"
+                            android:layout_marginEnd="@android:dimen/notification_large_icon_height"
+                            android:padding="@dimen/default_gap"
+                            android:text="HTML5:Fundamentos Web - Educaciónit" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@android:dimen/notification_large_icon_height"
+
+                            android:layout_marginEnd="@android:dimen/notification_large_icon_height"
+                            android:padding="@dimen/default_gap"
+                            android:text="Introducción a Bases de Datos y SQL - Educaciónit" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@android:dimen/notification_large_icon_height"
+                            android:layout_marginEnd="@android:dimen/notification_large_icon_height"
+                            android:padding="@dimen/default_gap"
+                            android:text="Diplomatura en Programación Java - UTN" />
+
+                        <Button
+                            android:id="@+id/certificados"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:onClick="certificados"
+                            android:text="Certificados" />
+
+                </LinearLayout>
+        </ScrollView>
+</LinearLayout>
